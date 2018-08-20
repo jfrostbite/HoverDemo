@@ -211,6 +211,7 @@ public class HoverItemDecoration extends RecyclerView.ItemDecoration {
         }
     }
 
+    @Deprecated
     private boolean canvasTrans(@NonNull Canvas c, @NonNull RecyclerView parent, int rectTop) {
         boolean flag = false;
         for (int i = 0; i < parent.getChildCount(); i++) {
