@@ -232,6 +232,8 @@ public class HoverItemDecoration extends RecyclerView.ItemDecoration {
 //                    Log.e("TAG", "dy = " + dy);
                     c.translate(0, dy);
                 }
+            } else {
+
             }
         }
         return flag;
